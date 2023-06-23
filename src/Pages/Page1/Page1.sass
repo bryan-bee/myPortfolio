@@ -1,0 +1,264 @@
+@import '../../Components/Styles/Colors'
+@import '../../Components/Styles/Constants'
+@import '../../Components/Styles/Text'
+
+
+
+.home_menu
+  z-index: 2
+  background: $bc4
+  text-align: center
+  position: fixed
+  width: 100vw
+  margin-top: 0
+
+.home_menu_name
+  position: absolute
+  left: 0
+  color: $fc1
+  transition: $t
+  &:hover
+    color: $bc5
+
+
+.home_menu_links_parent
+  text-align: center
+
+.home_menu_links
+  color: $fc1
+  &:first-child
+    margin-left: 0
+  transition: $t
+  &:hover
+    color: $bc5
+  @media screen and (max-width: $ss3)
+    font-size: 26px
+  @media screen and (max-width: $ss2)
+    font-size: 24px
+  @media screen and (max-width: $ss1)
+    font-size: 20px
+
+
+@media screen and (min-width: $ss8min)
+  .home_menu
+    line-height: $lh4*1.25
+  .home_menu_name
+    margin-left: $lh4*1.25
+  .home_menu_links
+    margin-left: $lh4*1.25
+@media screen and (max-width: $ss7)
+  .home_menu
+    line-height: $lh3*1.25
+  .home_menu_name
+    margin-left: $lh3*1.25
+  .home_menu_links
+    margin-left: $lh3*1.25
+@media screen and (max-width: $ss5)
+  .home_menu
+    line-height: $lh2*1.25
+  .home_menu_name
+    margin-left: $lh2*1.25
+  .home_menu_links
+    margin-left: $lh2*1.25
+@media screen and (max-width: $ss3)
+  .home_menu
+    line-height: $lh1*1.5
+  .home_menu_name
+    line-height: $lh1*1.5
+    margin-left: $lh1*1.5
+    position: relative
+    float: left
+  .home_menu_links_parent
+    background: rgb(250,250,245)
+    position: absolute
+    right: 0
+    margin-top: $lh1*1.5
+    height: 200vh
+    width: 60vw
+    transform: translateX(60vw)
+    @media screen and (max-width: $ss2)
+      width: 100vw
+      transform: translateX(100vw)
+  .home_menu_links_child
+    margin-top: 50px
+    display: flex
+    justify-content: space-around
+    flex-direction: column
+    height: 400px
+
+  .home_menu_links
+    margin-left: 0
+  .home_menu_button
+    position: absolute
+    right: 0
+    margin-right: $lh2
+    cursor: pointer
+    &:hover
+      .home_menu_button_line
+        //background: #6496C8
+        background: $bc5
+      .home_menu_button_line1
+        transform: translateY(5px) rotate(90deg)
+      .home_menu_button_line2
+        transform: translateY(-7px) rotate(-180deg)
+  .home_menu_button_line
+    background: $fc1
+    transition: $t
+    width: 22px
+    height: 2px
+  .home_menu_button_line1
+    margin-top: 11px
+  .home_menu_button_line2
+    margin-top: 10px
+
+.toggleMenuChange
+  transition: $t
+  transform: translateX(0px)
+
+
+
+.fontwhite
+  color: white
+
+.page1_main
+  position: relative
+  background: $bc2
+.page1
+  @media screen and (min-width: $ss8min)
+    padding: $p4 0
+  @media screen and (max-width: $ss7)
+    padding: $p3 0
+  @media screen and (max-width: $ss5)
+    padding: $p2 0
+  @media screen and (max-width: $ss2)
+    padding: $p1 0
+
+.page1_showcontents
+  background: $bc5
+.page1_showcontents_image
+  height: 100%
+
+.page1_showcontents
+  display: grid
+  grid-template-columns: repeat(2,1fr)
+  @media screen and (max-width: $ss2)
+    grid-template-columns: repeat(1,1fr)
+    margin-top: 20px
+    &:first-child
+      margin-top: 0px
+
+.page1_showcontents_textdiv
+  @media screen and (max-width: $ss2)
+    order: 2
+    margin: 30px 0
+  text-align: center
+
+
+
+//@media screen and (min-width: $ss8min)
+.page1_showcontents
+  width: 2732px
+  margin: auto
+  margin-top: 40px
+  &:first-child
+    margin-top: 0px
+.page1_showcontents_image
+  width: 1366px
+
+@media screen and (max-width: $ss7)
+  .page1_showcontents
+    width: 1707px
+    margin: auto
+    margin-top: 30px
+    &:first-child
+      margin-top: 0px
+  .page1_showcontents_image
+    width: 854px
+
+@media screen and (max-width: $ss5)
+  .page1_showcontents
+    width: 1366px
+    margin: auto
+    margin-top: 20px
+    &:first-child
+      margin-top: 0px
+  .page1_showcontents_image
+    width: 683px
+
+@media screen and (max-width: $ss3)
+  .page1_showcontents
+    width: 100vw
+    margin: auto
+    margin-top: 20px
+    &:first-child
+      margin-top: 0px
+  .page1_showcontents_image
+    width: 50vw
+
+.page1_showcontents:nth-child(even)
+  background: $bc6
+@media screen and (min-width: $ss3min)
+  .page1_showcontents:nth-child(even)
+    .page1_showcontents_textdiv
+      order: 2
+  .page1_showcontents_textdiv
+    margin: auto
+
+@media screen and (max-width: $ss2)
+  .page1_showcontents_image
+    width: 100vw
+
+
+.page1_showcontents_button
+  background: black
+  color: $fc2
+  transition: $t
+  &:hover
+    background: $bc6
+  @media screen and (min-width: $ss8min)
+    margin-top: $lh4
+    line-height: $lh4
+    padding: 0 $lh4
+    margin: $lh4/2 4px 4px 0
+  @media screen and (max-width: $ss7)
+    margin-top: $lh3
+    line-height: $lh3
+    padding: 0 $lh3
+    margin: $lh3/2 3px 3px 0
+  @media screen and (max-width: $ss5)
+
+    line-height: $lh2
+    padding: 0 $lh2
+    margin: $lh2/2 2px 2px 0
+  @media screen and (max-width: $ss3)
+    margin-top: 15px
+    line-height: 30px
+    padding: 0 30px
+  @media screen and (max-width: $ss2)
+    margin-top: $lh1/2
+    line-height: $lh1
+    padding: 0 $lh1
+
+  @media screen and (min-width: $ss8min)
+    margin-top: $lh4
+    line-height: $lh4
+    padding: 0 $lh4
+    margin: $lh4/2 4px 4px 0
+  @media screen and (max-width: $ss7)
+    margin-top: $lh3
+    line-height: $lh3
+    padding: 0 $lh3
+    margin: $lh3/2 3px 3px 0
+  @media screen and (max-width: $ss5)
+    margin-top: $lh2
+    line-height: $lh2
+    padding: 0 $lh2
+    margin: $lh2/2 2px 2px 0
+  @media screen and (max-width: $ss3)
+    margin-top: 15px
+    line-height: 30px
+    padding: 0 30px
+  @media screen and (max-width: $ss2)
+    margin-top: $lh1/2
+    line-height: $lh1
+    padding: 0 $lh1

@@ -1,0 +1,78 @@
+@import '../../Components/Styles/Colors'
+@import '../../Components/Styles/Text'
+@import '../../Components/Styles/Constants'
+
+.work_main
+  background: $bc3
+  @media screen and (min-width: $ss8min)
+    padding: $p4 0
+  @media screen and (max-width: $ss7)
+    padding: $p3 0
+  @media screen and (max-width: $ss5)
+    padding: $p2 0
+  @media screen and (max-width: $ss2)
+    padding: $p1 0
+
+
+.work_items
+  @media screen and (min-width: $ss8min)
+    margin-top: $p4
+  @media screen and (max-width: $ss7)
+    margin-top: $p3
+  @media screen and (max-width: $ss5)
+    margin-top: $p2
+  @media screen and (max-width: $ss2)
+    margin-top: $p1
+
+
+.work_items_card
+  background: $bc2
+  @media screen and (min-width: $ss8min)
+    margin: 0px 300px 100px 300px
+    padding: 80px
+  @media screen and (max-width: $ss7)
+    margin: 0px 224px 50px 224px
+    padding: 60px
+  @media screen and (max-width: $ss5)
+    margin: 0px 150px 50px 150px
+    padding: 40px
+  @media screen and (max-width: $ss3)
+    margin: 0px 100px 50px 100px
+    padding: 20px
+  @media screen and (max-width: 1000px)
+    margin: 0px 40px 20px 40px
+  @media screen and (max-width: $ss1)
+    margin: 0px 20px 10px 20px
+  &:last-child
+    margin-bottom: 0
+
+.work_items_card_maintext
+  color: $fc3
+  @media screen and (min-width: $ss8min)
+    line-height: $lh4
+  @media screen and (max-width: $ss7)
+    line-height: $lh3
+  @media screen and (max-width: $ss5)
+    line-height: $lh2
+  @media screen and (max-width: $ss3)
+    line-height: $lh1
+
+
+.work_items_card_link,
+.work_items_card_description,
+.work_items_card_technologies,
+.work_items_card_date
+  color: black
+
+.work_items_card_link
+  transition: $t
+  &:hover
+    color: $fc4
+
+
+
+
+
+
+
+/**/

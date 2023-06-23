@@ -1,0 +1,65 @@
+@import '../../Components/Styles/Colors'
+@import '../../Components/Styles/Constants'
+@import '../../Components/Styles/Text'
+
+.footer
+  text-align: center
+  background: $bc4
+  @media screen and (min-width: $ss8min)
+    padding: $p4 0
+  @media screen and (max-width: $ss7)
+    padding: $p3 0
+  @media screen and (max-width: $ss5)
+    padding: $p2 0
+  @media screen and (max-width: $ss2)
+    padding: $p1 0
+
+.footer_name
+  @media screen and (min-width: $ss8min)
+    padding-bottom: $p4/4
+  @media screen and (max-width: $ss7)
+    padding-bottom: $p3/4
+  @media screen and (max-width: $ss5)
+    padding-bottom: $p2/4
+  @media screen and (max-width: $ss2)
+    padding-bottom: $p1/4
+  color: $fc1
+  transition: $t
+  &:hover
+    color: $fc4
+
+.footer_text_bottom
+  @media screen and (min-width: $ss8min)
+    padding-bottom: $p4/4
+  @media screen and (max-width: $ss7)
+    padding-bottom: $p3/4
+  @media screen and (max-width: $ss5)
+    padding-bottom: $p2/4
+  @media screen and (max-width: $ss2)
+    padding-bottom: $p1/4
+
+.footer_socials_button
+  background: black
+  color: $fc2
+  transition: $t
+  &:hover
+    background: $bc5
+  @media screen and (min-width: $ss8min)
+    line-height: $lh4
+    padding: 0 $lh4
+    margin: 0 4px 4px 0
+  @media screen and (max-width: $ss7)
+    line-height: $lh3
+    padding: 0 $lh3
+    margin: 0 3px 3px 0
+  @media screen and (max-width: $ss5)
+    line-height: $lh2
+    padding: 0 $lh2
+    margin: 0 2px 2px 0
+  @media screen and (max-width: $ss3)
+    line-height: 30px
+    padding: 0 30px
+  @media screen and (max-width: $ss2)
+    line-height: $lh1
+    padding: 0 $lh1
+    margin: 0 1px 1px 0

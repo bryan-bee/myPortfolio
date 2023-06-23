@@ -1,0 +1,102 @@
+@import '../../Components/Styles/Colors'
+@import '../../Components/Styles/Constants'
+@import '../../Components/Styles/Text'
+
+.fontwhite
+  color: white
+
+.page2_main
+  background: $bc3
+  @media screen and (min-width: $ss8min)
+    padding: $p4 0
+  @media screen and (max-width: $ss7)
+    padding: $p3 0
+  @media screen and (max-width: $ss5)
+    padding: $p2 0
+  @media screen and (max-width: $ss2)
+    padding: $p1 0
+
+.page2_showcontents_main
+  @media screen and (min-width: $ss8min)
+    margin-top: $p4
+  @media screen and (max-width: $ss7)
+    margin-top: $p3
+  @media screen and (max-width: $ss5)
+    margin-top: $p2
+  @media screen and (max-width: $ss2)
+    margin-top: $p1
+
+.page2_showcontents
+  background: rgb(99,109,178)
+  background: $bc5
+.page2_showcontents_image
+  height: 100%
+
+.page2_showcontents
+  display: grid
+  grid-template-columns: repeat(2,1fr)
+  @media screen and (max-width: $ss2)
+    grid-template-columns: repeat(1,1fr)
+    margin-top: 20px
+    &:first-child
+      margin-top: 0px
+
+.page2_showcontents_textdiv
+  @media screen and (max-width: $ss2)
+    order: 2
+    margin: 30px 0
+  text-align: center
+
+.page2_showcontents_line4
+  @media screen and (min-width: $ss8min)
+    line-height: $lh4
+  @media screen and (max-width: $ss7)
+    line-height: $lh3
+  @media screen and (max-width: $ss5)
+    line-height: $lh2
+  @media screen and (max-width: $ss3)
+    line-height: $lh1
+
+
+//@media screen and (min-width: $ss9min)
+.page2_showcontents
+  width: 2732px
+  margin: auto
+  margin-top: 40px
+  &:first-child
+    margin-top: 0px
+.page2_showcontents_image
+  width: 1366px
+
+@media screen and (max-width: $ss8)
+  .page2_showcontents
+    width: 1366px
+    margin: auto
+    margin-top: 20px
+    &:first-child
+      margin-top: 0px
+  .page2_showcontents_image
+    width: 683px
+
+@media screen and (max-width: $ss3)
+  .page2_showcontents
+    width: 100vw
+    margin: auto
+    margin-top: 20px
+    &:first-child
+      margin-top: 0px
+  .page2_showcontents_image
+    width: 50vw
+
+.page2_showcontents:nth-child(even)
+  background: $bc6
+@media screen and (min-width: $ss3min)
+  .page2_showcontents:nth-child(even)
+    .page2_showcontents_textdiv
+      order: 2
+  .page2_showcontents_textdiv
+    margin: auto
+
+@media screen and (max-width: $ss2)
+  .page2_showcontents_image
+    width: 100vw

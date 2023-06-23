@@ -1,0 +1,121 @@
+@import '../../Components/Styles/Colors'
+@import '../../Components/Styles/Constants'
+@import '../../Components/Styles/Text'
+
+.fontblack
+  color: black
+
+.interests_main
+  background: rgb(250,250,250)
+  @media screen and (min-width: $ss8min)
+    padding: $p4 0
+  @media screen and (max-width: $ss7)
+    padding: $p3 0
+  @media screen and (max-width: $ss5)
+    padding: $p2 0
+  @media screen and (max-width: $ss2)
+    padding: $p1 0
+
+.interests
+  display: grid
+  grid-template-columns: repeat(2,1fr)
+  @media screen and (max-width: $ss2)
+    grid-template-columns: repeat(1,1fr)
+  @media screen and (min-width: $ss8min)
+    padding: $p4 0 0 0
+  @media screen and (max-width: $ss7)
+    padding: $p3 0 0 0
+  @media screen and (max-width: $ss5)
+    padding: $p2 0 0 0
+  @media screen and (max-width: $ss2)
+    padding: $p1 0 0 0
+
+.interests_1
+  @media screen and (min-width: $ss8min)
+    padding: 0px 200px 0px 300px
+    line-height: $lh4
+  @media screen and (max-width: $ss7)
+    padding: 0px 150px 0px 224px
+    line-height: $lh3
+  @media screen and (max-width: $ss5)
+    padding: 0px 100px 0px 150px
+    line-height: $lh2
+  @media screen and (max-width: $ss3)
+    padding: 0px 100px
+    line-height: 30px
+  @media screen and (max-width: 1000px)
+    padding: 0px 45px 0px 45px
+    line-height: $lh1
+
+.interests_2
+  @media screen and (min-width: $ss8min)
+    padding: 0px 300px 0px 200px
+  @media screen and (max-width: $ss7)
+    padding: 0px 224px 0px 150px
+  @media screen and (max-width: $ss5)
+    padding: 0px 150px 0px 100px
+  @media screen and (max-width: $ss3)
+    padding: 0px 75px 0px 50px
+  @media screen and (max-width: 1000px)
+    padding: 0px 40px 0px 40px
+
+.interests_items_skills_s,
+.interests_items_socials_s
+  background: black
+  color: $fc2
+  transition: $t
+  @media screen and (min-width: $ss8min)
+    line-height: $lh4
+    padding: 0 $lh4
+    margin: 0 4px 4px 0
+  @media screen and (max-width: $ss7)
+    line-height: $lh3
+    padding: 0 $lh3
+    margin: 0 3px 3px 0
+  @media screen and (max-width: $ss5)
+    line-height: $lh2
+    padding: 0 $lh2
+    margin: 0 2px 2px 0
+  @media screen and (max-width: $ss3)
+    line-height: 30px
+    padding: 0 30px
+  @media screen and (max-width: $ss2)
+    line-height: $lh1
+    padding: 0 $lh1
+    margin: 0 1px 1px 0
+
+.interests_items_socials_s
+  transition: $t
+  &:hover
+    background: $bc5
+
+.interests_2_intro1,
+.interests_2_intro2
+  @media screen and (min-width: $ss8min)
+    padding: $lh4 0
+  @media screen and (max-width: $ss7)
+    padding: $lh3 0
+  @media screen and (max-width: $ss5)
+    padding: $lh2 0
+  @media screen and (max-width: $ss3)
+    padding: 30px 0
+  @media screen and (max-width:$ss2)
+    padding: $lh1 0
+
+.interests_2_intro1
+  @media screen and (min-width: $ss3min)
+    padding-top: 0
+
+@keyframes background-pan
+  from
+    background-position: 0% center
+  to
+    background-position: -200% center
+
+.calstate-la
+  animation: background-pan 4s linear infinite
+  background: linear-gradient(to right, #861F41, #E87722, #861F41, #E87722)
+  background-size: 200%
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  white-space: nowrap
