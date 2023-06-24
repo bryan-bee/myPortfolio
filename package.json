@@ -21,7 +21,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:react/recommended"
     ]
   },
   "browserslist": {
@@ -35,5 +36,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^1.0.2",
+    "@astrojs/sitemap": "^1.0.0",
+    "@netlify/netlify-marketing-tokens": "^1.1.0",
+    "astro": "^2.0.0",
+    "eslint-plugin-react": "^7.32.2"
   }
 }
