@@ -58,7 +58,7 @@ function Interests() {
 
 
         <div className='interests_1 fs1'>
-            Hi thanks for visiting! I'm a junior at <b className="calstate-la">CalState Los Angeles</b> pursuing
+            Hi, thanks for visiting! I'm a junior at <b className="calstate-la">CalState Los Angeles</b> pursuing
             a bachelor's degree in computer science. I am always looking for
             new ways to improve my skills as a software engineer.
             <br/><br/>
