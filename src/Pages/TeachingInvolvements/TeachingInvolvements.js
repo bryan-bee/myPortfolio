@@ -49,7 +49,7 @@ function Ti() {
 
       <div className='ti'>
 
-        <SectionHeading text='Teaching Involvements' color='white' />
+        <SectionHeading text='Miscellaneous Involvements' color='white' />
         <ShowTi />
 
       </div>
