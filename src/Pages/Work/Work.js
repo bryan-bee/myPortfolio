@@ -9,8 +9,18 @@ function ShowWork() {
       description:'Software Engineer Intern',
       technologies:'JavaScript, Python',
       date:'Jun 2023 - Aug 2023',
-      content:[
+      content:['Worked as part of a team to help automate metrics by', ' using python to make API calls, gather and parse JSON', 
+      'data, and use the data to performs necessary', 'calculations and present metrics and graphs'
       ],
+      
+    },
+    {
+      name:'Starbucks Coffee Comapany',
+      description:'Shift Supervisor',
+      date:'April 2018 - Oct 2022',
+      content:['Helped lead the team to help meet store ' ,'goals and manage daily operations'
+      ],
+      
     },
   ];
   return (
