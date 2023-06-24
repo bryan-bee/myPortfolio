@@ -62,18 +62,18 @@ function Interests() {
             a bachelor's degree in computer science. I am always looking for
             new ways to improve my skills as a software engineer.
             <br/><br/>
-            My main interests are in frontend and backend software engineering with 
-            Python and Java. I also enjoy web development using HTML/CSS, boostrap,
-            and React.
+            My main interests are in both frontend and backend software engineering with 
+            Python and Java. I also enjoy web development using HTML/CSS and JavaScript.
             I love being able to use my skills and knowledge to help
-            either myself or my team achieve real results.
+            both myself and others achieve real results.
             <br/><br/>
             I'm passionate about learning and teaching, especially in being able to explain
-            difficult concepts to my terms in different ways so that they can understand whatever it is that
+            difficult concepts to my peers in different ways so that they can understand whatever it is that
             they're struggling with.
             My passion for learning and teaching has led me to found and lead
-            my school's technical interview preparation organiztion called TIPSE. The organization is dedicated to
-            helping other computer science students learn and practice their data structures, algorithms, and leetcode skills.
+            my school student organiztion called TIPSE which stands for Technical Intervew Preparation for Software 
+            Engineers. The organization is dedicated to provide a space for other likeminded motivated
+            computer science students learn and improve their data structures, algorithms, and leetcode skills.
         </div>
         <div className='interests_2'>
           <div className='interests_2_intro1 fontblack fs1'><b>Technologies I am familiar with:</b></div>
