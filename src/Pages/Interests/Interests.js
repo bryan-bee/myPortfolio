@@ -7,7 +7,7 @@ import Resume from '../../Components/Images/resume.pdf';
 function ShowSkills() {
 
     const s = ['Python','Java', 'C++', 'JavaScript','React',
-    'Sass', 'HTML', 'CSS', 'MySQL'];
+    'Sass', 'HTML', 'CSS', 'BootStrap', 'MySQL', 'Git'];
 
     return (
       <div className='interests_items_skills'>
