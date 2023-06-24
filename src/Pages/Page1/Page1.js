@@ -35,7 +35,7 @@ function ShowContents_Page1() {
       line1: 'Greetings, I\'m Bryan',
       line2: 'Currently a junior at CalState LA, I am an aspiring software engineer and fullstack web developer',
       button_link: Resume,
-      button_text: 'Résumé',
+      button_text: 'Resume',
       photo: HomeImage
     },
   ]

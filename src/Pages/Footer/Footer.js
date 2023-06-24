@@ -6,7 +6,7 @@ function ShowSocials() {
 
     const s = [
       {
-        name: 'Résumé',
+        name: 'Resume',
         link: Resume,
       },
       {
