@@ -45,7 +45,7 @@ function ShowTi() {
 
 function Ti() {
   return (
-    <div className='ti_main' id='teaching'>
+    <div className='ti_main' id='misc'>
 
       <div className='ti'>
 
