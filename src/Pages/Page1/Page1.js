@@ -15,7 +15,7 @@ function ShowMenuLinks() {
       {name:'Interests',id:'#interests'},
       {name:'Work Experience', id:'#work'},
       {name:'Technical Projects',id:'#projects'},
-      {name:'Miscellaneous Involvements',id:'#teaching'},
+      {name:'Miscellaneous Involvements',id:'#misc'},
     ];
     return (
       <div className='home_menu_links_parent' onClick={menuDisactivate}>
