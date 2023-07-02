@@ -32,7 +32,7 @@ function ShowMenuLinks() {
 function ShowContents_Page1() {
   const contentspage1 = [
     {
-      line1: 'print("Hello, I\'m Bryan")',
+      line1: 'console.log("Hello, I\'m Bryan");',
       line2: 'Currently a junior at CalState LA, I am an aspiring software engineer and fullstack web developer',
       button_link: Resume,
       button_text: 'Resume',
