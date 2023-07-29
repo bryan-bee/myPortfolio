@@ -7,10 +7,11 @@ function ShowWork() {
     {
       name:'Northrop Grumman',
       description:'Software Engineer Intern',
-      technologies:'JavaScript, Python',
+      technologies:'Python',
       date:'Jun 2023 - Aug 2023',
-      content:['Worked as part of a team to help automate metrics by', ' using python to make API calls, gather and parse JSON', 
-      'data, and use the data to performs necessary', 'calculations and present metrics and graphs'
+      content:['Worked as part of a team to develop a program which automated the collecting, calculating, and displaying of metrics data.',
+      '• Spearheaded the development and integration of backend functionality for the automation program using various libraries and algorithms',
+      '• Acted as the role of Scrum Master in an agile environment and documented processes using Atlassian tools including Bitbucket, JIRA, and Confluence'
       ],
       
     },
@@ -18,7 +19,7 @@ function ShowWork() {
       name:'Starbucks Coffee Comapany',
       description:'Shift Supervisor',
       date:'April 2018 - Oct 2022',
-      content:['Helped lead the team to help meet store ' ,'goals and manage daily operations'
+      content:['Helped lead the team to help meet store goals and manage daily operations'
       ],
       
     },

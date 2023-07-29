@@ -6,8 +6,8 @@ import Resume from '../../Components/Images/resume.pdf';
 
 function ShowSkills() {
 
-    const s = ['Python','Java', 'C++', 'JavaScript','React',
-    'Sass', 'HTML', 'CSS', 'BootStrap', 'MySQL', 'Git'];
+    const s = ['Python', 'Flask', 'Java', 'C++', 'JavaScript','React',
+    'CLI', 'HTML', 'CSS', 'BootStrap', 'MySQL', 'Git', 'JSP'];
 
     return (
       <div className='interests_items_skills'>
@@ -58,25 +58,25 @@ function Interests() {
 
 
         <div className='interests_1 fs1'>
-            Hi, thanks for visiting! I'm a junior at <b className="calstate-la">CalState Los Angeles</b> pursuing
-            a bachelor's degree in computer science. I am always looking for
+            Hi, nice to meet you! I'm a junior at <b className="calstate-la">CalState Los Angeles</b> pursuing
+            a bachelor's degree in computer science. I'm a very curious person by nature and am always looking for
             new ways to improve my skills as a software engineer.
             <br/><br/>
-            My main interests are in both frontend and backend software engineering with 
-            Python and Java. I also enjoy web development using HTML/CSS and JavaScript.
+            My main interests are in both frontend development with JavaScript, HTML/CSS, and backend development with 
+            Python and Java. 
             I love being able to use my skills and knowledge to help
-            both myself and others achieve real results.
+            others in ways that have real world impact.
             <br/><br/>
-            I'm passionate about learning and teaching, especially in being able to explain
-            difficult concepts to my peers in different ways so that they can understand whatever it is that
-            they're struggling with.
-            My passion for learning and teaching has led me to found and lead
-            my school student organiztion called TIPSE which stands for Technical Intervew Preparation for Software 
-            Engineers. The organization is dedicated to provide a space for other likeminded motivated
-            computer science students learn and improve their data structures, algorithms, and leetcode skills.
+            I'm passionate about both learning and teaching, and am almost
+            always working on a new project to expand my skillset. Additionally, I take pride in my ability to deconstruct and 
+            effectively teach complex concepts to others, enabling them to grasp and overcome any challenges they may face.
+            My passion for learning and teaching has driven me to establish and lead a student organization in my school called TIPSE, 
+            which stands for Technical Interview Preparation for Software Engineers. The organization is committed to creating a 
+            nurturing environment for like-minded and motivated computer science students to enhance their knowledge of data structures, 
+            algorithms, and LeetCode skills.
         </div>
         <div className='interests_2'>
-          <div className='interests_2_intro1 fontblack fs1'><b>Technologies I am familiar with:</b></div>
+          <div className='interests_2_intro1 fontblack fs1'><b>Technologies and Tools I am familiar with:</b></div>
           <ShowSkills />
           <div className='interests_2_intro2 fontblack fs1'><b>Contact and socials:</b></div>
           <ShowSocials />

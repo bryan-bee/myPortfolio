@@ -5,11 +5,20 @@ import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 function ShowProjects() {
   const projects = [
     {
+      name: 'Spotify Wrapped',
+      description:'Spotify wrapped replica',
+      technologies:'React · Flask',
+      content:[
+        '- Used flask to handle all the backend logic and communication with Spotify API',
+        '- Then used React.js to handle the displaying of Spotify user data '
+      ],
+    },
+    {
       name:'bryanbee.com',
       description:'Personal Portfolio Website',
-      technologies:'React · JSX · Sass',
+      technologies:'React · JSX ',
       content:[
-        '- Used React.js and Sass to develope a minimalistic and scalable SWE portfolio website',
+        '- Used React.js to develop a minimalistic and scalable SWE portfolio website',
         '- Utilized Sass variables and mapping of key-value objects and lists toward creating a scalable\
         and readable environment'
       ],
@@ -30,7 +39,7 @@ function ShowProjects() {
       technologies:'Python',
       content:[
         '- Using Python, automated the displaying and presenting of metrics by using requests library \
-        to make API calls to JIRA, gather and parse JSON data, and then used pandas to create visual graphs with the data',
+        to make API calls to JIRA, gather and parse JSON data, and then used pandas and matplotlib to create visual graphs with the data',
       ],
     },
   ];
