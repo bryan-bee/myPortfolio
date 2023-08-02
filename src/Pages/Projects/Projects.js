@@ -14,6 +14,14 @@ function ShowProjects() {
       ],
     },
     {
+      name: 'Discord Bot',
+      description:'Discord Bot moderator',
+      technologies:'Python (discord.py)',
+      content:[
+        '- Discord bot that helped manage chat logs and helped moderate the server for inappropriate messages.'
+      ],
+    },
+    {
       name:'bryanbee.com',
       description:'Personal Portfolio Website',
       technologies:'React · JSX ',
