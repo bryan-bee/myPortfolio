@@ -5,51 +5,53 @@ import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 function ShowProjects() {
   const projects = [
     {
+      name:'Housing Price Predicter Model',
+      description:'October 2023- In Progress',
+      technologies:'Python, TensorFlow, PyTorch, Pandas, Scikit-Learn',
+      content:[
+        '● Training a machine learning model to predict housing prices by collecting preprocessed historical sales and pricing data.',
+        '● Deploying the model for real-world use, utilizing regression techniques to achieve housing price predictions'
+      ],
+    },
+    {
       name: 'Spotify Wrapped',
-      description:'Spotify wrapped replica',
-      technologies:'React · Flask',
+      description:'June 2023 - In Progress',
+      technologies:'REST API, Python, Flask, JSON, OAuth, React.js',
       content:[
-        '- Used flask to handle all the backend logic and communication with Spotify API',
-        '- Then used React.js to handle the displaying of Spotify user data '
-      ],
-    },
-    {
-      name: 'Discord Bot',
-      description:'Discord Bot moderator',
-      technologies:'Python (discord.py)',
-      content:[
-        '- Discord bot that helped manage chat logs and helped moderate the server for inappropriate messages.'
-      ],
-    },
-    {
-      name:'bryanbee.com',
-      description:'Personal Portfolio Website',
-      technologies:'React · JSX ',
-      content:[
-        '- Used React.js to develop a minimalistic and scalable SWE portfolio website',
-        '- Utilized Sass variables and mapping of key-value objects and lists toward creating a scalable\
-        and readable environment'
-      ],
-    },
-    {
-      name:'Hospital management system',
-      description:'',
-      technologies:'Java, MySQL, HTML/CSS(BootStrap)',
-      link:'https://github.com/bryan-bee/Hospital-Management',
-      content:[
-        '- Designed and created a WebServlet that a hospital could use to view/edit patient and vaccine\
-         information using HTML/CSS and Bootstrap which connected to an SQL server for data access. A logged in user could then view and edit information depending on their account privileges',
+        '● Creating a web application emulating Spotify\'s \'Spotify Wrapped\' feature, providing users with personalized Spotify metrics based on their music preferences and listening habits',
+        '● Enables users to access their custom Spotify metrics at any time, offering a unique and engaging experience.'
       ],
     },
     {
       name:'Metrics Automation',
-      description:'',
-      technologies:'Python',
+      description:'June 2023- August 2023',
+      technologies:'REST API, Git, Python, NumPy, Pandas',
       content:[
-        '- Using Python, automated the displaying and presenting of metrics by using requests library \
-        to make API calls to JIRA, gather and parse JSON data, and then used pandas and matplotlib to create visual graphs with the data',
+        '● Developed a Python program to automate the generation and presentation of key metrics, including release backlog stability, project backlog stability, and sprint volatility.',
+        '● This program allowed users from various teams and projects to access their metrics, facilitating progress tracking and efficient planning.'
       ],
     },
+    {
+      name: 'ChatGPT-Powered Monkey Bot',
+      description:'December 2022 - August 2023',
+      technologies:'REST API, Python',
+      content:[
+        '● Crafted a fun and interactive Discord bot to help moderate and entertain server members.',
+        '● The bot helped to actively monitor server chats, apply temporary chat and voice chat restrictions to rule violators, and used API calls to provide entertaining ChatGPT-powered responses'
+      ],
+    },
+    
+    {
+      name:'Hospital management system',
+      description:'January 2023 – May 2023',
+      technologies:'Java, HTML, CSS, Bootstrap, MySQL',
+      link:'https://github.com/bryan-bee/Hospital-Management',
+      content:[
+        '● Engineered a web application designed to provide hospitals with an intuitive interface for viewing and editing patient and vaccine information.',
+        '● The service offered user-friendly patient and vaccine data management for healthcare providers'
+      ],
+    },
+    
   ];
 
   return (

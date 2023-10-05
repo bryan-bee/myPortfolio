@@ -7,19 +7,11 @@ function ShowWork() {
     {
       name:'Northrop Grumman',
       description:'Software Engineer Intern',
-      technologies:'Python',
+      technologies:'Python, Git, REST-API, Pandas, Matplotlib, NumPy',
       date:'Jun 2023 - Aug 2023',
-      content:['Worked as part of a team to develop a program which automated the collecting, calculating, and displaying of metrics data.',
-      '• Spearheaded the development and integration of backend functionality for the automation program using various libraries and algorithms',
-      '• Acted as the role of Scrum Master in an agile environment and documented processes using Atlassian tools including Bitbucket, JIRA, and Confluence'
-      ],
-      
-    },
-    {
-      name:'Starbucks Coffee Comapany',
-      description:'Shift Supervisor',
-      date:'April 2018 - Oct 2022',
-      content:['Helped lead the team to help meet store goals and manage daily operations'
+      content:['• Collaborated with stakeholders, product owners, and my team of engineers to automate metric generation in Python, resulting in a 90% reduction in manual workload for metrics collection across all projects and teams.',
+      '• Spearheaded the development of our backend data pipeline by designing, implementing, and testing the code base, which provided half the metrics for our automation platform.',
+      '• Systematically conducted code testing, including bug replication, debugging, and post-resolution testing.'
       ],
       
     },

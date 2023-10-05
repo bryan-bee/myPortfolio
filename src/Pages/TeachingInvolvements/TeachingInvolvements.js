@@ -1,7 +1,7 @@
 import './TeachingInvolvements.sass';
 import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 import Logo from '../../Components/Images/logo.jpg';
-
+import STEM from '../../Components/Images/STEM.png';
 
 function ShowTi() {
   const ti = [
@@ -10,10 +10,20 @@ function ShowTi() {
       title:'Founder and President',
       date:'Sep 2022 - Present',
       content:[
-        '- Put together and created a student organization dedicated to helping students have a place to learn, practice, and tutor \
-         each other to improve their data structures, algorithms, and leetcode skills',
+        '● Founded and led a student organization to help aspiring software engineers prepare for technical interviews.',
+        '● Responsible for organizing meetings for members, leading sessions using online resources, facilitating mock interviews, and teaching members common technical interview topics such as BFS/DFS, two-pointers, etc'
       ],
       image: Logo,
+    },
+    {
+      place:'STEM Advantage Program',
+      title:'Scholar',
+      date:'October 2022 - Present',
+      content:[
+        '● Cultivated a mentorship relationship with a STEM industry professional with a biweekly touch-base',
+        '● Participates in professional development workshops and industry career panels.'
+      ],
+      image: STEM,
     },
   ];
 

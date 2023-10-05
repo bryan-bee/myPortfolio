@@ -10,8 +10,8 @@ function ShowContents_Page2() {
       line2: 'President and Founder',
       line3: 'Nov 2022 - Present',
       line4content: [
-        '-Put together and created a student organization dedicated to helping students have a place to learn, practice, and tutor \
-        each other to improve their data structures, algorithms, and leetcode skills'
+        '● Founded and led a student organization to help aspiring software engineers prepare for technical interviews.',
+        '● Responsible for organizing meetings for members, leading sessions using online resources, facilitating mock interviews, and teaching members common technical interview topics such as BFS/DFS, two-pointers, etc'
       ],
       photo: PlaceholderImage
     },
