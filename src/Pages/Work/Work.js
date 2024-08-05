@@ -5,6 +5,15 @@ import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 function ShowWork() {
   const work = [
     {
+      name:'Accenture',
+      description:'Technology Analyst Intern',
+      technologies:'HTML, CSS, PostgreSQL, PgAdmin, JavaScript, React, Java, Spring Boot',
+      date:'June 2024 - August 2024',
+      content:['• Revamped the frontend of a client’s billing platform using React.js to improve visuals and create a modern, intuitive user interface, which significantly enhanced the user experience for 3.7 million customers.',
+      '• Developed secure and efficient SQL queries by employing isolation levels, PgAdmin database analysis, and prepared statements, which enhanced the backend endpoints of the billing platform.'
+      ],
+    },
+    {
       name:'Partillion BioScience',
       description:'Software Engineer Intern',
       technologies:'Python, Jython, Tk-Inter, OpenCV, ImageJ, API Integration, Automation',

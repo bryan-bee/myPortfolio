@@ -58,12 +58,12 @@ function Interests() {
 
 
         <div className='interests_1 fs1'>
-            Hi, nice to meet you! I'm a junior at <b className="calstate-la">CalState Los Angeles</b> pursuing
+            Hi, nice to meet you! I'm a senior at <b className="calstate-la">CalState Los Angeles</b> pursuing
             a bachelor's degree in computer science. I'm a very curious person by nature and am always looking for
             new ways to improve my skills as a software engineer.
             <br/><br/>
             My main interests are in both frontend development with JavaScript, HTML/CSS, and backend development with 
-            Python and Java. 
+            Python and Java. I am also familiar with different frameworks such as Spring Boot, React, and Flask.  
             I love being able to use my skills and knowledge to help
             others in ways that have real world impact.
             <br/><br/>
