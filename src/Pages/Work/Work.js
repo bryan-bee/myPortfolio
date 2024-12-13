@@ -5,9 +5,18 @@ import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 function ShowWork() {
   const work = [
     {
+      name:'We2Link',
+      description:'Software Engineer Intern',
+      technologies:'HTML, CSS, JavaScript, React, Firebase',
+      date:'August 2024 - Present',
+      content:['• Engineer a full-stack application with React.js and Firebase to enhance memory management for users with cognitive impairments by helping them efficiently organize memories, passwords, and daily tasks.',
+        ' • Actively leads 9 software engineer interns in code reviews and scrum sessions, providing constructive feedback to improve designs, code quality, and development processes.'
+      ],
+    },
+    {
       name:'Accenture',
       description:'Technology Analyst Intern',
-      technologies:'HTML, CSS, PostgreSQL, PgAdmin, JavaScript, React, Java, Spring Boot',
+      technologies:'HTML, CSS, JavaScript, React, Java, Spring Boot',
       date:'June 2024 - August 2024',
       content:['• Revamped the frontend of a client’s billing platform using React.js to improve visuals and create a modern, intuitive user interface, which significantly enhanced the user experience for 3.7 million customers.',
       '• Developed secure and efficient SQL queries by employing isolation levels, PgAdmin database analysis, and prepared statements, which enhanced the backend endpoints of the billing platform.'

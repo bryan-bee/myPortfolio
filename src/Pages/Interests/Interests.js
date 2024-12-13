@@ -62,9 +62,9 @@ function Interests() {
             a bachelor's degree in computer science. I'm a very curious person by nature and am always looking for
             new ways to improve my skills as a software engineer.
             <br/><br/>
-            My main interests are in both frontend development with JavaScript, HTML/CSS, and backend development with 
-            Python and Java. I am also familiar with different frameworks such as Spring Boot, React, and Flask.  
-            I love being able to use my skills and knowledge to help
+            My main interest is in backend software engineering and I have professional experience in  
+            Python and Java. I am also familiar with other languages as well as frameworks such as Spring Boot, React, and Flask.  
+            I love using my skills and knowledge to help
             others in ways that have real world impact.
             <br/><br/>
             I'm passionate about both learning and teaching, and am almost
