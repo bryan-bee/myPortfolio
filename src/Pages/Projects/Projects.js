@@ -9,8 +9,8 @@ function ShowProjects() {
       description:'October 2023- In Progress',
       technologies:'Python, TensorFlow, PyTorch, Pandas, Scikit-Learn',
       content:[
-        '● Training a machine learning model to predict housing prices by collecting preprocessed historical sales and pricing data.',
-        '● Deploying the model for real-world use, utilizing regression techniques to achieve housing price predictions'
+        '● Trained various machine learning and deep learning models, including SVM, ANN, and CNN, to predict human emotions from grayscale images, achieving accurate emotion classification through image analysis.',
+        '● Preprocessed a dataset of 37,000+ human emotion images taken from Kaggle, utilized Pandas, Keras, and NumPy to optimize them as training data for machine learning models, achieving an average prediction accuracy of 60%.'
       ],
     },
     {
@@ -27,8 +27,8 @@ function ShowProjects() {
       description:'June 2023- August 2023',
       technologies:'REST API, Git, Python, NumPy, Pandas',
       content:[
-        '● Developed a Python program to automate the generation and presentation of key metrics, including release backlog stability, project backlog stability, and sprint volatility.',
-        '● This program allowed users from various teams and projects to access their metrics, facilitating progress tracking and efficient planning.'
+        '● Collaborated with stakeholders, product owners, and my team of engineers to automate metric generation in Python, which resulted in a 90% reduction in manual workload for metrics collection across all projects and teams.',
+        '●  Spearheaded the development of our backend data pipeline by designing, implementing, and testing the code base, which provided half the metrics for our automation platform.'
       ],
     },
     {
