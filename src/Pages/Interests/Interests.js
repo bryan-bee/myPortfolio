@@ -30,7 +30,7 @@ function ShowSocials() {
       },
       {
         name: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/bryanbee97/'
+        link: 'https://www.linkedin.com/in/bryan-bee/'
       }
     ];
 
