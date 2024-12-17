@@ -60,7 +60,7 @@ function ShowProjects() {
       {projects.map(i => (
         <div className='projects_items_card'>
 
-          <a href={i.link} target='_blank' rel='noopener noreferrer' className='projects_items_card_link fs1'
+          <a href={i.link} target='_blank' rel='noopener noreferrer' className='projects_items_card_link fs2'
             style={{fontWeight: 'bold'}}>{i.name}</a>
           <div className='projects_items_card_description fs1'>{i.description}</div>
           <div className='projects_items_card_technologies fs1'>{i.technologies}</div>

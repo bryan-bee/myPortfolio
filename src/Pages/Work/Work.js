@@ -49,7 +49,7 @@ function ShowWork() {
       {work.map(i => (
         <div className='work_items_card'>
 
-          <a href={i.link} target='_blank' rel='noopener noreferrer' className='work_items_card_link fs1'
+          <a href={i.link} target='_blank' rel='noopener noreferrer' className='work_items_card_link fs3'
             style={{fontWeight: 'bold'}}>{i.name}</a>
           <div className='work_items_card_description fs1'>{i.description}</div>
           <div className='work_items_card_technologies fs1'>{i.technologies}</div>
@@ -77,7 +77,7 @@ function Work() {
 
       <div className='work'>
 
-        <SectionHeading text='Work Experience' color='black' />
+        <SectionHeading text='Work Experience' color='rgb(247, 247, 247)' />
         <ShowWork />
 
       </div>

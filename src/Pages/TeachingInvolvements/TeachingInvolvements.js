@@ -34,7 +34,7 @@ function ShowTi() {
         <div className='ti_items_card'>
 
           <img src={i.image} className='ti_items_card_image' /><br/>
-          <a href={i.link} className='ti_items_card_link fs1' target='_blank' rel='noopener noreferrer' style={{fontWeight: 'bold'}}>{i.place}</a>
+          <a href={i.link} className='ti_items_card_link fs2' target='_blank' rel='noopener noreferrer' style={{fontWeight: 'bold'}}>{i.place}</a>
           <div className='ti_items_card_title fs1'>{i.title}</div>
           <div className='ti_items_card_date fs1'>{i.date}</div>
           {i.content.map(j => (
