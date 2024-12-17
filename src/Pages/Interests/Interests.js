@@ -52,7 +52,7 @@ function Interests() {
 
 
 
-      <SectionHeading text='Interests' color='rgb(216, 214, 221)' />
+      <SectionHeading text='About Me' color='rgb(216, 214, 221)' />
 
       <div className='interests'>
 
