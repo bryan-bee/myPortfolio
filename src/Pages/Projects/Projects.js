@@ -5,9 +5,9 @@ import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 function ShowProjects() {
   const projects = [
     {
-      name:'Housing Price Predicter Model',
-      description:'October 2023- In Progress',
-      technologies:'Python, TensorFlow, PyTorch, Pandas, Scikit-Learn',
+      name:'Machine Learning: Human Emotion Detector',
+      description:'Jan 2024- April 2024',
+      technologies:'Python, Jupyter Notebook, Pandas, Keras, Tensorflow, Scikit-Learn',
       content:[
         '● Trained various machine learning and deep learning models, including SVM, ANN, and CNN, to predict human emotions from grayscale images, achieving accurate emotion classification through image analysis.',
         '● Preprocessed a dataset of 37,000+ human emotion images taken from Kaggle, utilized Pandas, Keras, and NumPy to optimize them as training data for machine learning models, achieving an average prediction accuracy of 60%.'

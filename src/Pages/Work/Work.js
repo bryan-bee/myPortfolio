@@ -5,12 +5,24 @@ import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 function ShowWork() {
   const work = [
     {
+      name:'Leidos',
+      description:'Software Engineer Intern',
+      technologies:'AWS, Python, Javascript, Llama 3 LLM, RESTful API',
+      date:'January 2025 - Present',
+      content:[
+        '● Designed and deployed an automated ETL pipeline using AWS S3, Glue, and Athena to transform TrackVia datasets into scalable, queryable formats for downstream analytics.',
+        '● Developed RESTful API endpoints for a resume screening platform powered by AWS Bedrock’s LLaMA 3, enabling automated skill extraction and improving recruiter efficiency by reducing manual candidate filtering.',
+        '● Collaborated in an Agile Scrum environment with daily standups, sprint planning, peer code reviews, and test-driven development to ensure robust, maintainable code.'
+      ],
+    },
+    {
       name:'We2Link',
       description:'Software Engineer Intern',
       technologies:'HTML, CSS, JavaScript, React, Firebase',
-      date:'August 2024 - Present',
-      content:['• Engineer a full-stack application with React.js and Firebase to enhance memory management for users with cognitive impairments by helping them efficiently organize memories, passwords, and daily tasks.',
-        ' • Actively leads 9 software engineer interns in code reviews and scrum sessions, providing constructive feedback to improve designs, code quality, and development processes.'
+      date:'August 2024 - May 2025',
+      content:[
+        '• Developed a full-stack application with React.js and Firebase to enhance memory management for users with cognitive impairments by helping them efficiently organize memories, passwords, contacts, and daily tasks.',
+        '• Engineered a detect-duplicate-contacts and merge feature by representing contacts as graph nodes, connecting them via shared contact details, and performing DFS to identify clusters of duplicates, enabling users to selectively merge and retain relevant contacts.'
       ],
     },
     {
@@ -18,8 +30,9 @@ function ShowWork() {
       description:'Technology Analyst Intern',
       technologies:'HTML, CSS, JavaScript, React, Java, Spring Boot',
       date:'June 2024 - August 2024',
-      content:['• Revamped the frontend of a client’s billing platform using React.js to improve visuals and create a modern, intuitive user interface, which significantly enhanced the user experience for 3.7 million customers.',
-      '• Developed secure and efficient SQL queries by employing isolation levels, PgAdmin database analysis, and prepared statements, which enhanced the backend endpoints of the billing platform.'
+      content:[
+        '• Revamped the frontend of a client’s billing platform using React.js to improve visuals and create a modern, intuitive user interface, which significantly enhanced the user experience for 3.7 million customers.',
+        '• Developed secure and efficient SQL queries by employing isolation levels, PgAdmin database analysis, and prepared statements, which enhanced the backend endpoints of the billing platform.'
       ],
     },
     {
