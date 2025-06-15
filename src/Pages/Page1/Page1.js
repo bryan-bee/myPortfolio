@@ -33,7 +33,7 @@ function ShowContents_Page1() {
   const contentspage1 = [
     {
       line1: 'console.log("Hello, I\'m Bryan");',
-      line2: 'Currently a senior at CalState LA, I am an aspiring software engineer',
+      line2: 'Computer Science Graduate and aspiring Software Engineer',
       button_link: Resume,
       button_text: 'Resume',
       photo: HomeImage

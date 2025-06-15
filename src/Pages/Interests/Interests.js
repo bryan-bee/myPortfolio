@@ -58,8 +58,8 @@ function Interests() {
 
 
         <div className='interests_1 fs1'>
-            Hi, nice to meet you! I'm a senior at <b className="calstate-la">CalState Los Angeles</b> pursuing
-            a bachelor's degree in computer science. I'm a very curious person by nature and am always looking for
+            Hi, nice to meet you! I'm recent graduate from <b className="calstate-la">CalState Los Angeles</b> where I earned my
+            B.S. in Computer Science and graduted with honors, summa cum laude. I'm a very curious person by nature and am always looking for
             new ways to improve my skills as a software engineer.
             <br/><br/>
             My main interest is in backend software engineering and I have professional experience in  
