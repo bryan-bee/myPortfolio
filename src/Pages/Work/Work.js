@@ -5,14 +5,24 @@ import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 function ShowWork() {
   const work = [
     {
+      name:'Accenture',
+      description:'Technology Analyst',
+      technologies:'AWS, Python, Javascript, Llama 3 LLM, RESTful API',
+      date:'January 2025 - Present',
+      content:[
+        '● Engineered backend automation workflows supporting 50+ internal users, automating high-volume enterprise transaction processing and reducing manual operational effort.',
+        '● Implemented data validation and integrity checks using Open SQL on large enterprise datasets to prevent failed transactions and improve system reliability, increasing transaction success rates to 99%+',
+        '● Developed reporting and data processing systems to extract, transform, and aggregate large-scale transactional data using optimized ABAP internal table operations.'
+      ],
+    },
+    {
       name:'Leidos',
       description:'Software Engineer Intern',
       technologies:'AWS, Python, Javascript, Llama 3 LLM, RESTful API',
       date:'January 2025 - Present',
       content:[
-        '● Designed and deployed an automated ETL pipeline using AWS S3, Glue, and Athena to transform TrackVia datasets into scalable, queryable formats for downstream analytics.',
-        '● Developed RESTful API endpoints for a resume screening platform powered by AWS Bedrock’s LLaMA 3, enabling automated skill extraction and improving recruiter efficiency by reducing manual candidate filtering.',
-        '● Collaborated in an Agile Scrum environment with daily standups, sprint planning, peer code reviews, and test-driven development to ensure robust, maintainable code.'
+        '● Designed and built a serverless ETL pipeline for 40+ datasets using AWS S3, Glue, and Athena to transform and structure large-scale datasets into analytics-ready fact and dimension tables, supporting a team of 6 data analysts.',
+        '● Created an AI-powered candidate matching platform using AWS Bedrock (Llama 3), vector embeddings, and semantic search to automate 300+ candidate-job matching and reduce manual resume screening'
       ],
     },
     {
@@ -21,8 +31,8 @@ function ShowWork() {
       technologies:'HTML, CSS, JavaScript, React, Firebase',
       date:'August 2024 - May 2025',
       content:[
-        '• Developed a full-stack application with React.js and Firebase to enhance memory management for users with cognitive impairments by helping them efficiently organize memories, passwords, contacts, and daily tasks.',
-        '• Engineered a detect-duplicate-contacts and merge feature by representing contacts as graph nodes, connecting them via shared contact details, and performing DFS to identify clusters of duplicates, enabling users to selectively merge and retain relevant contacts.'
+        '• Engineered a full-stack application with React.js and Firebase to improve memory management for users with cognitive impairments by organizing memories, passwords, contacts, and daily tasks.',
+        '• Spearheaded a graph-based duplicate-contact detection system using DFS and connected component analysis to automatically identify and merge related user for more than 50 active users.'
       ],
     },
     {
