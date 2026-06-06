@@ -7,8 +7,8 @@ function ShowWork() {
     {
       name:'Accenture',
       description:'Technology Analyst',
-      technologies:'AWS, Python, Javascript, Llama 3 LLM, RESTful API',
-      date:'January 2025 - Present',
+      technologies:'ABAP, SQL, AWS',
+      date:'September 2025 - Present',
       content:[
         '● Engineered backend automation workflows supporting 50+ internal users, automating high-volume enterprise transaction processing and reducing manual operational effort.',
         '● Implemented data validation and integrity checks using Open SQL on large enterprise datasets to prevent failed transactions and improve system reliability, increasing transaction success rates to 99%+',
@@ -19,7 +19,7 @@ function ShowWork() {
       name:'Leidos',
       description:'Software Engineer Intern',
       technologies:'AWS, Python, Javascript, Llama 3 LLM, RESTful API',
-      date:'January 2025 - Present',
+      date:'January 2025 - July 2025',
       content:[
         '● Designed and built a serverless ETL pipeline for 40+ datasets using AWS S3, Glue, and Athena to transform and structure large-scale datasets into analytics-ready fact and dimension tables, supporting a team of 6 data analysts.',
         '● Created an AI-powered candidate matching platform using AWS Bedrock (Llama 3), vector embeddings, and semantic search to automate 300+ candidate-job matching and reduce manual resume screening'
@@ -31,8 +31,8 @@ function ShowWork() {
       technologies:'HTML, CSS, JavaScript, React, Firebase',
       date:'August 2024 - May 2025',
       content:[
-        '• Engineered a full-stack application with React.js and Firebase to improve memory management for users with cognitive impairments by organizing memories, passwords, contacts, and daily tasks.',
-        '• Spearheaded a graph-based duplicate-contact detection system using DFS and connected component analysis to automatically identify and merge related user for more than 50 active users.'
+        '● Engineered a full-stack application with React.js and Firebase to improve memory management for users with cognitive impairments by organizing memories, passwords, contacts, and daily tasks.',
+        '● Spearheaded a graph-based duplicate-contact detection system using DFS and connected component analysis to automatically identify and merge related user for more than 50 active users.'
       ],
     },
     {
@@ -41,8 +41,8 @@ function ShowWork() {
       technologies:'HTML, CSS, JavaScript, React, Java, Spring Boot',
       date:'June 2024 - August 2024',
       content:[
-        '• Revamped the frontend of a client’s billing platform using React.js to improve visuals and create a modern, intuitive user interface, which significantly enhanced the user experience for 3.7 million customers.',
-        '• Developed secure and efficient SQL queries by employing isolation levels, PgAdmin database analysis, and prepared statements, which enhanced the backend endpoints of the billing platform.'
+        '● Revamped the frontend of a client’s billing platform using React.js to improve visuals and create a modern, intuitive user interface, which significantly enhanced the user experience for 3.7 million customers.',
+        '● Developed secure and efficient SQL queries by employing isolation levels, PgAdmin database analysis, and prepared statements, which enhanced the backend endpoints of the billing platform.'
       ],
     },
     {
@@ -51,8 +51,8 @@ function ShowWork() {
       technologies:'Python, Jython, Tk-Inter, OpenCV, ImageJ, API Integration, Automation',
       date:'Feb 2024 - May 2024',
       content:['• Spearheaded the development of an OpenCV-based particle analysis program for nano-vial detection and analysis, resulting in a 35% improvement in batch quality control and streamlined production evaluation.',
-      '• Developed a Jython script in ImageJ to automate the merging of color channels for nano-vial production images, resulting in significant reduction in the manual work in creating composite images.',
-      '• Conducted comprehensive debugging across multiple programs and actively maintained existing software by creating detailed documentation, which enhanced system reliability and addressed technical debt'
+      '● Developed a Jython script in ImageJ to automate the merging of color channels for nano-vial production images, resulting in significant reduction in the manual work in creating composite images.',
+      '● Conducted comprehensive debugging across multiple programs and actively maintained existing software by creating detailed documentation, which enhanced system reliability and addressed technical debt'
       ],
     },
     {
@@ -61,8 +61,8 @@ function ShowWork() {
       technologies:'Python, Git, REST-API, Pandas, Matplotlib, NumPy',
       date:'Jun 2023 - Aug 2023',
       content:['• Collaborated with product owners and my team of engineers to automate metrics generation in Python, which resulted in a 90% reduction in the manual workload for metrics collection across all projects and teams.',
-      '• Spearheaded the development of our backend data pipeline by designing, implementing, and testing the code base, which provided half the metrics for our automation platform.',
-      '• Systematically conducted code testing, including bug replication, debugging, and post-resolution testing.'
+      '● Spearheaded the development of our backend data pipeline by designing, implementing, and testing the code base, which provided half the metrics for our automation platform.',
+      '● Systematically conducted code testing, including bug replication, debugging, and post-resolution testing.'
       ],
     }
   ];
