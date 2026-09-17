@@ -8,7 +8,7 @@ function ShowTi() {
     {
       place:'Cal State LA Technical Intervew Preparation for Software Engineers (TIPSE)',
       title:'Founder and President',
-      date:'Sep 2022 - Present',
+      date:'Sep 2022 - May 2024',
       content:[
         '● Founded and led a student organization to help aspiring software engineers prepare for technical interviews.',
         '● Responsible for organizing meetings for members, leading sessions using online resources, facilitating mock interviews, and teaching members common technical interview topics such as BFS/DFS, two-pointers, etc'

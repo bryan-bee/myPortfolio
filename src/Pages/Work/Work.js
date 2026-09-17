@@ -7,12 +7,11 @@ function ShowWork() {
     {
       name:'Accenture',
       description:'Technology Analyst',
-      technologies:'ABAP, SQL, AWS',
+      technologies:'Python, TypeScript, AWS CDK, AWS AppSync, Amazon Connect, Amazon DynamoDB, Amazon S3, AWS IAM, Amazon Cognito, Amazon Bedrock, CloudFormation, Boto3, Pydantic, SAP IS-U, ABAP, Open SQL, BDC, Git',
       date:'September 2025 - Present',
       content:[
-        '● Engineered backend automation workflows supporting 50+ internal users, automating high-volume enterprise transaction processing and reducing manual operational effort.',
-        '● Implemented data validation and integrity checks using Open SQL on large enterprise datasets to prevent failed transactions and improve system reliability, increasing transaction success rates to 99%+',
-        '● Developed reporting and data processing systems to extract, transform, and aggregate large-scale transactional data using optimized ABAP internal table operations.'
+        '● Developed the real-time event-routing layer for an AI agent-assist platform for Cigna that was approved to move forward with full production build-out following a stakeholder demo, using 2 AWS AppSync Events API channels to deliver AI-generated suggestions and Amazon Connect Contact Lens transcripts to customer service agents',
+        '● Engineered and unit-tested Python event-publishing modules using AWS SigV4 authentication and AppSync Events APIs, enabling customer service agents to receive AI-generated guidance and live call-transcript data in real time'
       ],
     },
     {

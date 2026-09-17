@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.9eae52c9.css",
-    "main.js": "/static/js/main.2f2791ca.js",
+    "main.css": "/static/css/main.e5e4a25a.css",
+    "main.js": "/static/js/main.bde6541d.js",
     "static/media/placeholderimage.jpg": "/static/media/placeholderimage.2cb7d79293a7cb82c308.jpg",
     "static/media/homeimage.jpg": "/static/media/homeimage.ec030037d4a3e1d64d20.jpg",
-    "static/media/resume.pdf": "/static/media/resume.95641de11cd5080ac907.pdf",
+    "static/media/resume.pdf": "/static/media/resume.124e2fb3d7465a03e35b.pdf",
     "static/media/acherusgrotesque-regular-webfont.woff": "/static/media/acherusgrotesque-regular-webfont.7588d418911f32f1a4a5.woff",
     "static/media/acherusgrotesque-regular-webfont.woff2": "/static/media/acherusgrotesque-regular-webfont.1e35666932b903489a67.woff2",
     "index.html": "/index.html",
-    "main.9eae52c9.css.map": "/static/css/main.9eae52c9.css.map",
-    "main.2f2791ca.js.map": "/static/js/main.2f2791ca.js.map"
+    "main.e5e4a25a.css.map": "/static/css/main.e5e4a25a.css.map",
+    "main.bde6541d.js.map": "/static/js/main.bde6541d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eae52c9.css",
-    "static/js/main.2f2791ca.js"
+    "static/css/main.e5e4a25a.css",
+    "static/js/main.bde6541d.js"
   ]
 }

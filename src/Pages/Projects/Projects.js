@@ -5,6 +5,18 @@ import SectionHeading from '../../Components/SectionHeading/SectionHeading.js';
 function ShowProjects() {
   const projects = [
     {
+      name:'AdServe — Real-Time Ad Serving & Auction Platform',
+      description:'July 2026- Sep 2026',
+      technologies:'Python, FastAPI, PostgreSQL, SQLAlchemy, Redis, Kafka, Docker, Locust',
+      content:[
+        '● Engineered a real-time ad auction platform modeling 2M users, 5K advertisers, and ∼23K campaigns, supporting audience targeting, weighted ranking, budget enforcement, and impression/click/conversion tracking.',
+        '● Optimized the auction hot path by eliminating SQLAlchemy N+1 queries, reducing request latency ∼9× (1.75s → 0.15–0.28s); root-caused a Redis cache stampede under concurrent load and redesigned caching with stale-while-revalidate, cutting median latency 3.1s → 94ms (∼33×) and increasing throughput 2.8× over the uncached baseline',
+        '● Scaled the FastAPI service with multi-process workers, connection-pool tuning, and concurrency profiling to ∼770 RPS with 300ms p95 latency and 0% failures at 150 concurrent users, while sustaining 1.1K+ RPS with 0% failures in stress tests up to 1,600 concurrent users.',
+        '● Eliminated a concurrent lost-update race that silently dropped 90% of campaign charges by implementing atomic PostgreSQL updates; reduced the write path from 7 to 3 SQL statements (∼57% fewer round trips).',
+        '● Built an idempotent Kafka event pipeline with at-least-once delivery for click/conversion processing and user-preference learning; integrated learned interest weights into auction ranking, producing a measured ∼26% relative increase in wins for ads matching users’ most-engaged interests.',
+      ],
+    },
+    {
       name:'Machine Learning: Human Emotion Detector',
       description:'Jan 2024- April 2024',
       technologies:'Python, Jupyter Notebook, Pandas, Keras, Tensorflow, Scikit-Learn',
